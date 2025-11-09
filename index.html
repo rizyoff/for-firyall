@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Love</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #ff9ecb, #ff69b4);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 450px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .heart {
+            font-size: 2.5rem;
+            animation: beat 1s infinite alternate;
+            margin: 15px 0;
+        }
+
+        .photo {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .floating-hearts span {
+            position: absolute;
+            animation: floatUp 6s linear infinite;
+            opacity: 0.7;
+            font-size: 1.4rem;
+            color: #ffe0f4;
+        }
+
+        @keyframes floatUp {
+            0% { transform: translateY(0) scale(1); opacity: 0.8; }
+            100% { transform: translateY(-200px) scale(1.4); opacity: 0; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes beat {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Birthday Firyallll 💖</h1>
+        <div class="heart">💗</div>
+        <div class="photo">
+            <img src="WhatsApp Image 2025-11-09 at 16.20.19.jpeg" alt="Foto Kita Berdua" />
+        </div>
+        <p>
+            Hari ini spesial banget, sama seperti kamu yang selalu bikin hari-hariku lebih indah.
+            Terima kasih sudah hadir, mencintai, dan selalu mendukung aku. Semoga semua impianmu
+            tercapai, dan aku ingin terus ada di setiap langkah hidupmu.
+        </p>
+        <p>
+            Kamu itu seperti warna pink—lembut, manis, dan selalu bikin hati hangat. Aku sayang
+            banget sama kamu, lebih dari yang bisa aku tulis di halaman ini, makasih banget yaa
+            sudah menjadi orang yang mau selalu ada disisiku yahh walaupun aku bandel hahaha 
+            HAhahahaha . Selamat ulang tahun cinta. Semoga bahagia selalu. 💕
+        </p>
+
+        <p>
+            Dengan segala cinta,
+            <br />
+            [rizky]
+        </p>
+    </div>
+    <div class="floating-hearts">
+        <span style="left:10%">💖</span>
+        <span style="left:30%; animation-delay:1s">💗</span>
+        <span style="left:50%; animation-delay:2s">💕</span>
+        <span style="left:70%; animation-delay:1.5s">💞</span>
+        <span style="left:85%; animation-delay:0.5s">💘</span>
+    </div>
+    <audio autoplay loop hidden>
+        <source src="Nadin Amizah - Bertaut (Official Music Video).mp3" type="audio/mpeg" />
+    </audio>
+</body>
+</html>
